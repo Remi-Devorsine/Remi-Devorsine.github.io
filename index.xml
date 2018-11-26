@@ -38,11 +38,27 @@
       <guid>/post/getting-started/</guid>
       <description>
 
-&lt;p&gt;Le contenu ici&lt;/p&gt;
+&lt;p&gt;Science des données&lt;/p&gt;
 
-&lt;h2 id=&#34;un-titre&#34;&gt;Un titre&lt;/h2&gt;
+&lt;h2 id=&#34;le-site-internet&#34;&gt;Le site internet&lt;/h2&gt;
 
-&lt;p&gt;Du texte &lt;strong&gt;avec une partie en gras&lt;/strong&gt;...&lt;/p&gt;
+&lt;p&gt;Dans le cadre de ma deuxième année, je dois créer un site Web dans la matière Science des donées.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mon premier blog</title>
+      <link>/post/getting-started.utf8/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>/post/getting-started.utf8/</guid>
+      <description>
+
+&lt;p&gt;Science des données&lt;/p&gt;
+
+&lt;h2 id=&#34;le-site-internet&#34;&gt;Le site internet&lt;/h2&gt;
+
+&lt;p&gt;Dans le cadre de ma deuxième année, je dois créer un site Web dans la matière Science des donées.&lt;/p&gt;
 </description>
     </item>
     

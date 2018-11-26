@@ -18,8 +18,18 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
       
       <guid>/post/getting-started/</guid>
-      <description>Le contenu ici
-Un titre Du texte avec une partie en gras...</description>
+      <description>Science des données
+Le site internet Dans le cadre de ma deuxième année, je dois créer un site Web dans la matière Science des donées.</description>
+    </item>
+    
+    <item>
+      <title>Mon premier blog</title>
+      <link>/post/getting-started.utf8/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>/post/getting-started.utf8/</guid>
+      <description>Science des données
+Le site internet Dans le cadre de ma deuxième année, je dois créer un site Web dans la matière Science des donées.</description>
     </item>
     
   </channel>
