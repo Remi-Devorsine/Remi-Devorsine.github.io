@@ -124,13 +124,48 @@ $(document).ready(function () {
 </div>
 
 
-<p>+++ date = 2016-04-20 lastmod = 2018-09-20 draft = false tags = [“academic”, “hugo”] title = “Mon premier blog” math = true summary = “”&quot; Résumé en une ou deux phrases ici. “”&quot;</p>
-<p>[header] image = “headers/secondary-header.jpg” caption = “Image credit: <strong>Derek Thompson</strong> on Unsplash” preview = false</p>
+<p>+++ # Hero widget. widget = “hero” active = true date = 2017-10-15</p>
+<p>title = &quot; &quot;</p>
+<div id="order-that-this-section-will-appear-in." class="section level1">
+<h1>Order that this section will appear in.</h1>
+<p>weight = 3</p>
+</div>
+<div id="overlay-a-color-or-image-optional." class="section level1">
+<h1>Overlay a color or image (optional).</h1>
+</div>
+<div id="deactivate-an-option-by-commenting-out-the-line-prefixing-it-with-." class="section level1">
+<h1>Deactivate an option by commenting out the line, prefixing it with <code>#</code>.</h1>
+<p>[header] overlay_color = “#666” # An HTML color value. overlay_img = “headers/Cerf.jpg” # Image path relative to your <code>static/img/</code> folder. overlay_filter = 0.3 # Darken the image. Value in range 0-1.</p>
+</div>
+<div id="call-to-action-button-optional." class="section level1">
+<h1>Call to action button (optional).</h1>
+</div>
+<div id="activate-the-button-by-specifying-a-url-and-button-label-below." class="section level1">
+<h1>Activate the button by specifying a URL and button label below.</h1>
+</div>
+<div id="deactivate-by-commenting-out-parameters-prefixing-lines-with-." class="section level1">
+<h1>Deactivate by commenting out parameters, prefixing lines with <code>#</code>.</h1>
+<p>[cta] url = “files/cv.pdf” label = ‘<i class="fa fa-download"></i> Curriculum Vitae (PDF)’</p>
 <p>+++</p>
-<p>Science des données</p>
-<div id="le-site-internet" class="section level2">
-<h2>Le site internet</h2>
-<p>Dans le cadre de ma deuxième année, je dois créer un site Web dans la matière Science des donées.</p>
+<p>Remi Devorsine <br> <small>I am student in the University of Mons</small> <br><br></p>
+<script type="text/javascript">
+  (function defer() {
+    if (window.jQuery) {
+      jQuery(document).ready(function(){
+        GetLatestReleaseInfo();
+      });
+    } else {
+      setTimeout(function() { defer() }, 50);
+    }
+  })();  
+  function GetLatestReleaseInfo() {
+    $.getJSON('https://api.github.com/repos/gcushen/hugo-academic/tags').done(function (json) {
+      let release = json[0];
+      
+      $('#academic-release').text('Latest release ' + release.name);  
+    });    
+}  
+</script>
 </div>
 
 
